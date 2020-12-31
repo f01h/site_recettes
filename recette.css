@@ -81,8 +81,8 @@ img.info{
     background-color: lightgray;
 }
 div.colonne {
-    width: 45%;
-    margin-top: 15px;
+    width: 100%;
+    margin-top: 20px;
 }
 div.colonne h2{
     text-align: center;
@@ -93,10 +93,6 @@ div.colonne h2{
 }
 div.colonne1{
     display: inline-block;
-    margin-right: 10%;
-}
-div.colonne2{
-    float: right;
 }
 div.ingredients p {
     text-align: center;
@@ -145,5 +141,21 @@ table.preparation tr {
     }
     table.info th {
         font-size: 18px;
+    }
+    div.colonne {
+        width: 45%;
+    }
+    div.colonne1{
+        margin-right: 10%;
+    }
+    div.colonne2{
+        float: right;
+    }
+}
+@media only screen and (min-width: 900px){
+    div.contenu {
+        margin-left: auto;
+        margin-right: auto;
+        width: 645px;
     }
 }
